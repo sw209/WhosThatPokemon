@@ -30,10 +30,10 @@
 
 ## 결과 분석
 
-- Custom CNN은 pretrained 모델 없이 학습하여 낮은 성능을 보였다.
-- ResNet18 pretrained 모델은 마지막 FC layer만 학습했음에도 높은 성능을 달성하였다.
-- layer4까지 fine-tuning을 수행한 경우 성능이 크게 향상되었으며, 이는 pretrained feature를 데이터셋에 맞게 조정하는 것이 중요함을 보여준다.
-- MobileNetV2는 경량 모델임에도 ResNet18과 유사한 성능을 보여 효율적인 모델임을 확인할 수 있었다.
+- Custom CNN은 pretrained 모델 없이 학습하여 낮은 성능을 보임
+- ResNet18 pretrained 모델은 마지막 FC layer만 학습했음에도 높은 성능을 달성.
+- layer4까지 fine-tuning을 수행한 경우 성능이 크게 향상되었으며, 이는 pretrained feature를 데이터셋에 맞게 조정하는 것이 중요함.
+- MobileNetV2는 경량 모델임에도 ResNet18과 유사한 성능을 보여 효율적인 모델임을 확인.
 
 ---
 
@@ -56,5 +56,6 @@
 
 - 데이터 클래스 내 없는 경우
 
-![result_fault](result_fault.png)
+![result2](result2.png)
+
 ---
