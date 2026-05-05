@@ -40,12 +40,16 @@
 ## Learning Curve
 
 ### Validation Accuracy 비교
-![Validation Accuracy](images/validation_accuracy_comparison.png)
+- 트레이닝 에러 비교
+![Training_Accuracy](training_accuracy_comparison.png)
+- test 결과 예측 (validateion error)
+![Validation Accuracy](validation_accuracy_comparison.png)
 
 ---
 
 ## 예제 결과
-
+- 데이터 Class 내 있는 경우
 ![result](result.png)
-
+- 데이터 클래스 내 없는 경우
+![result_fault](result_fault.png)
 ---
