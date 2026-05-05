@@ -48,8 +48,13 @@
 ---
 
 ## 예제 결과
+
 - 데이터 Class 내 있는 경우
+
 ![result](result.png)
+
+
 - 데이터 클래스 내 없는 경우
+
 ![result_fault](result_fault.png)
 ---
